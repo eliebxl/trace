@@ -1,0 +1,136 @@
+// .dropdown-menu {
+//  	li { 
+ 		
+// 			.username {
+// 				&:hover {
+// 					background-color: white;
+// 					cursor: default;
+// 				}
+// 			}
+	
+
+// 	}
+// }
+
+.intro {
+	position: relative;
+	color: white;
+	background-image: url(../../assets/images/banner/tagline-bg.jpg);
+	background-position: center center;
+	width: 100%; height: 570px;
+	background-size: cover;
+	.cover-bg {
+		padding: 150px 0;
+		background-color: rgba(0,0,0,0.5);
+		// z-index: 500;
+		bottom: 0;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+	}
+	// .meta-tagline {
+	// 	width: 100%;
+	// 	height: 100%;
+	// 	background-color: rgba(0,0,0,0.7);
+	// 	padding: 150px 0px;
+	// }
+	// .big-title {
+	// 	border-bottom: 1px solid white;
+	// 	padding: 0px 0px 30px 0px;
+	// }
+	.logo-tagline {
+		display: block;
+		margin: 0 auto;
+		background-image: url(../../assets/images/logo/logo-tagline.svg);
+		width: 444px; height: 112px;
+		background-size: 444px 112px;
+		background-repeat: no-repeat;
+		background-position: center center;
+		@media (max-width: 768px) {
+			background-size: 100%;
+			width: 60%;
+		}
+	}
+	p {
+		z-index: 1000;
+		width: 60%;
+		padding: 20px 0;
+		font-size: 22px;
+		margin: 0 auto;
+		font-weight: 300;
+		text-rendering: optimizeLegibility;
+		-webkit-font-smoothing: antialiased;
+		-moz-font-smoothing: antialiased;
+		-o-font-smoothing: antialiased;
+		@media (max-width: 768px) {
+			width: 100%;
+		}
+	}
+}
+
+.section {
+	padding: 60px 0;
+	.call-for-action {
+		display: block;
+		// margin-top: 60px;
+	}	
+	.catch {
+		padding: 20px 0 40px 0;
+		font-size: 18px;
+		font-weight: 300;
+		margin: 0 auto;
+		width: 60%;
+		@media (max-width: 767px) {
+			width: 90%;
+		}
+	}
+}
+
+.front-page {
+	.btn {
+		margin-top: 40px;
+	}
+}
+
+// .featured-upcoming-event {
+// 	.selected-events {
+// 		margin: 0 auto;
+// 		.cards {
+// 			border-right: 1px solid $gray-dark;
+// 			border-bottom: 1px solid $gray-dark;
+// 			border-left: 1px solid $gray-dark;	
+// 			-ms-transform:scale(0.8); /* IE 9 */
+// 			-webkit-transform:scale(0.8); /* Chrome, Safari, Opera */
+// 			transform:scale(0.8); /* Standard syntax */
+// 		}
+// 	}
+// 	.call-for-action {
+// 		margin-top: 0px;
+// 	}
+// }
+
+.event-archive {
+	background-color: $gray-darker;
+	color: white;
+	.btn {
+		color: white;
+		border: 1px solid white;
+		&:hover {
+			border: 1px solid $gray-light;
+			color: $gray-light;
+		}
+	}
+}
+
+.create-an-event {
+	background-color: $brand-primary;
+	color: white;
+	.btn {
+		color: white;
+		border: 1px solid white;
+		&:hover {
+			border: 1px solid $gray-dark;
+			color: $gray-dark;
+		}
+	}
+}

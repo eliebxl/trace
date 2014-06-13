@@ -1,0 +1,48 @@
+.share-event {
+  // input[type=file] {
+  //   width: 100%;
+  //   height: 450px;
+  //   background-image: url(../../assets/images/cover/cover-empty.jpg);
+  //   background-size: cover; 
+  //   background-position: center center;
+  //   font-size: 18px;
+  //   text-align: center;
+  //   background-color: transparent;
+  //   &:hover {
+
+  //   }
+    .fileUpload {
+      position: relative;
+      width: 100%;
+      height: 450px;
+      // background-image: url(../../assets/images/cover/cover-empty.jpg);
+      // background-size: cover; 
+      // background-position: center center;
+      input.cover {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+        cursor: pointer;
+        opacity: 0;
+
+      }
+    }
+    // .cover {
+    //   width: 100%;
+    //   // background-image: url(../../assets/images/cover/cover-empty.jpg);
+    //   width: 450px;
+    //   background-color: red;
+    // }
+}
+
+.edit-image-banner {
+  background-image: url(../../assets/images/icons/picture-gray);
+  width: 270px;
+  height: 200px;
+  display: block;
+}

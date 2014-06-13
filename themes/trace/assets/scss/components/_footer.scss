@@ -1,0 +1,39 @@
+.footer {
+  width: 100%;
+  padding: 50px 0 20px 0;
+  background-color: $white;
+  font-weight: 300;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 1px;
+
+  .list-inline {
+    @media (max-width: 500px) {
+      float: none !important;
+      text-align: center !important;
+      display: inline-block !important;
+    }
+  }
+
+  li {
+    margin: 0 15px 10px 0;
+  }
+  a {
+
+    color: $gray-light;
+  }
+
+  .by-author {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    @media (max-width: 500px) {
+      float: none !important;
+      text-align: center !important;
+      display: inline-block !important;
+    }
+    .subtitle {
+      font-size: 12px;
+    }
+  }
+}

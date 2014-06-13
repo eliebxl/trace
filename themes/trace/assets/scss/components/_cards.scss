@@ -1,0 +1,70 @@
+.event-card {
+  position: relative;
+  padding-bottom: 112px;
+  background-color: white;
+  // border: 1px solid $gray-lighter;
+  -webkit-transition: background-color 300ms; /* For Safari 3.1 to 6.0 */
+  -moz-transition: background-color 300ms;
+  -o-transition: background-color 300ms;
+  transition: background-color 300ms;  
+  a {
+    display: block;
+    height: 450px;
+    color: black;
+    text-decoration: none;
+  }
+  &:hover {
+    background-color: $brand-primary;
+    color: white;
+    a {
+      color: white;
+    }
+    .event-card-date {
+      opacity: 1;
+    }
+  }
+  .event-card-top {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+  }
+  .event-card-bottom {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    bottom:0;
+    height: 112px;
+    border-right: 1px solid $gray-lighter;
+    border-left: 1px solid $gray-lighter;
+    border-bottom: 1px solid $gray-lighter;
+  }
+  .event-card-date {
+    padding: 2% 0 2% 0;
+    position: absolute;
+    top: 0;
+    width: 100%; 
+    background-color: $gray-lighter;
+    color: black;
+    font-weight: 300;
+    // border-top: 1px solid black; 
+    // border-bottom: 1px solid black;
+    border: 1px solid $gray-lighter;
+    opacity: 0.4;
+    -webkit-transition: opacity 300ms; /* For Safari 3.1 to 6.0 */
+    -webkit-transition: opacity 300ms;
+    -webkit-transition: opacity 300ms;
+    transition: opacity 300ms;
+    // p:last-child {
+    //   border-left: 1px solid black;
+    // }
+  }
+  .event-card-author {
+    padding-bottom: 12.5px;
+    font-family: $font-family-serif;
+    font-size: $font-size-middle;
+    font-style: italic;
+  }
+}
